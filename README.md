@@ -26,7 +26,7 @@ Abaixo segue as tabelas de 2011 e 2012:
 
 # Solução 
 
-## Projejto INSS 
+## Projeto INSS 
 Contém Classe FaixaImposto responsável por representar cada faixa a ser calculada.
 Dentro da Services está uma factory (FactoryMethod) responsável por definir qual faixa será usada para calcular, segundo o ano salário definido na entrada. 
 Para cada ano é criado uma classe INSS para representar a tabela do ano em questão, cada uma responsável por calcular a faixa seguindo a tabela definida para o ano.
